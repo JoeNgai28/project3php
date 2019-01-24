@@ -5,7 +5,7 @@
 </head>
 <body>
     <?php require_once('assets/partials/nav.php'); ?>
-	<h1>Incident Management</h1>
+	<h1>Incident Management Reporting</h1>
 	<hr>
 	<form action="assets/process.php" method="post">
         <label>Incident Type <br>
@@ -59,7 +59,7 @@
             <textarea rows="4" cols="50" name="root" placeholder=""></textarea>
         </label><br><br>                   
         
-		<input type="submit" value="submit">
+		<input type="submit" value="submit" style="background-color:grey">
 	</form>
 	<hr>
     <?php require_once('assets/partials/footer.php'); ?>

@@ -1,3 +1,3 @@
 <footer>
-	<a href="index.php">HOME</a> | <a href="profile.php">PROFILE</a> | <a href="cheatsheet.php">CHEATSHEET</a>
+	<a href="index.php">Home</a> | <a href="incident.php">Incidents</a> | <a href="admin.php">AdminPage</a>
 </footer>

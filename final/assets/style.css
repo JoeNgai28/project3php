@@ -1,7 +1,8 @@
 *{
 	font-family: sans-serif;
-	color:#555;
+	color:blue;
 	box-sizing: border-box;
+    background-color:antiquewhite;
 }
 
 label, input, select, option, p{
@@ -10,31 +11,38 @@ label, input, select, option, p{
 
 nav{
 	padding:10px;
-	background: #555;
+	background: darkblue;
 }
 
 nav h1{
 	display: inline-block;
 	color: white;
+    background-color: darkblue;
+
 }
 
 nav ul{
 	display: inline-block;
-}
+    float: right;
+    background:darkblue;
+ }
 
 nav li{
 	list-style: none;
 	display: inline-block;
+
 }
 
 nav a{
 	display:block;
-	background:#777;
-	padding:10px;
-	border-radius: 5px;
-	text-decoration: none;
-	color:#fff;
-}
+   	padding:10px;
+    background:white;
+	border-radius: 50px;
+	text-decoration: bold;
+	color:black;
+    float: right;
+    border-color: darkblue;
+  }
 
 table{
 	border: 1px #000 solid;
@@ -50,7 +58,7 @@ table td{
 }
 
 nav a:hover{
-	background:#333;
+	background:yellow;
 }
 
 footer {
